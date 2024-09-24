@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 1400px;
+    height: 110px;
+    gap: 30px;
+}
+a{
+    color: darkgrey;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+}
+.login{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    margin-left: auto;
+    width: 60px;
+    height: 40px;
+}
